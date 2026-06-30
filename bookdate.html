@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Date Form.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-slate-800 font-sans min-h-screen grid items-center justify-center p-4">
+
+    <div class="bg-white p-8 rounded-2xl shadow-xl w-full max-w-md border border-slate-100">
+        <h2 class="text-2xl font-bold text-center text-slate-800 tracking-tight">Set Your Dates</h2>
+        <p class="text-sm text-center text-slate-500 mt-1 mb-6">Select a single deadline or a specific date range.</p>
+
+        <form id="dateForm" class="space-y-5">
+    <div>
+        <label for="singleDate" class="block text-sm font-semibold text-slate-700 mb-1.5">Target Date</label>
+        <input type="date" id="singleDate" name="singleDate" 
+               class="w-full px-3 py-2.5 bg-white border border-slate-300 rounded-lg text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all">
+    </div>
+
+    <div class="grid grid-cols-2 gap-4">
+        <div>
+            <label for="startTime" class="block text-sm font-semibold text-slate-700 mb-1.5">Start Time</label>
+            <input type="time" id="startTime" name="startTime" 
+                   class="w-full px-3 py-2.5 bg-white border border-slate-300 rounded-lg text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all">
+        </div>
+        <div>
+            <label for="endTime" class="block text-sm font-semibold text-slate-700 mb-1.5">End Time</label>
+            <input type="time" id="endTime" name="endTime" 
+                   class="w-full px-3 py-2.5 bg-white border border-slate-300 rounded-lg text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all">
+        </div>
+    </div>
+
+    <div class="grid grid-cols-2 gap-4">
+        <div>
+            <label for="startDate" class="block text-sm font-semibold text-slate-700 mb-1.5">Start Date</label>
+            <input type="date" id="startDate" name="startDate" 
+                   class="w-full px-3 py-2.5 bg-white border border-slate-300 rounded-lg text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all">
+        </div>
+        <div>
+            <label for="endDate" class="block text-sm font-semibold text-slate-700 mb-1.5">End Date</label>
+            <input type="date" id="endDate" name="endDate" 
+                   class="w-full px-3 py-2.5 bg-white border border-slate-300 rounded-lg text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all">
+        </div>
+    </div>
+
+    <button type="submit" 
+            class="w-full py-3 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-bold rounded-lg shadow-md shadow-blue-200 transition-colors mt-2">
+        Confirm Dates
+    </button>
+</form>
+        
+        <div id="resultBox" class="hidden mt-6 p-4 bg-sky-50 border-l-4 border-blue-500 rounded-r-lg space-y-1">
+            <h3 class="text-sm font-bold text-slate-800 mb-2 uppercase tracking-wide">Selected Schedule:</h3>
+            <p id="outSingle" class="text-sm text-slate-600"></p>
+            <p id="outStartTime" class="text-sm text-slate-600"></p>
+            <p id="outEndTime" class="text-sm text-slate-600"></p>
+            <p id="outRange" class="text-sm text-slate-600"></p>
+        </div>
+    </div>
+    <div class="grid items-center text-white">
+        <button class="mt-6 px-6 py-3 bg-indigo-600 hover:bg-indigo-700 rounded-lg font-medium transition">
+        <a href="Index.html">Return to home page.</a>
+      </button>
+    </div>
+<script src="bookdate.js"></script>
+</body>
+</html>
