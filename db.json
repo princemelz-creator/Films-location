@@ -1,0 +1,71 @@
+{
+  "users": [
+    {
+      "fullname": "Prince Melvin Mbui",
+      "email": "melvinprince505@gmail.com",
+      "password": "1234567890",
+      "id": "hE5pqFiHOJE"
+    },
+    {
+      "fullname": "Natasha Ntutu",
+      "email": "natashantutu23@gmail.com",
+      "password": "12345678",
+      "id": "m3peMt4QHE8"
+    },
+    {
+      "fullname": "Jane Doe",
+      "email": "janedoe@gmail.com",
+      "password": "98765432",
+      "id": "Ag82zsuOdxQ"
+    },
+    {
+      "fullname": "Hagen Orenge",
+      "email": "orengehagen150@gmail.com",
+      "password": "12345678",
+      "id": "etSMKDZRuaw"
+    },
+    {
+      "fullname": "Evah Benson",
+      "email": "evahbenson2016@gmail.com",
+      "password": "12345678",
+      "id": "-_ZbiE6wXeA"
+    },
+    {
+      "fullname": "Newlyn kimathi",
+      "email": "kimathi235@gmail.com",
+      "password": "1234567890",
+      "id": "DiHMfBsYewo"
+    },
+    {
+      "fullname": "Troy lane",
+      "email": "troylane25@gmail.com",
+      "password": "1234567890",
+      "id": "hXjpVi12-Q0"
+    },
+    {
+      "fullname": "Michael karanja",
+      "email": "karanjamike23@gmail.com",
+      "password": "123456789",
+      "id": "xDP9hghILfc"
+    },
+    {
+      "fullname": "Quincy kimani",
+      "email": "kimani765@gmail.com",
+      "password": "3456789012",
+      "id": "X3bKBk7KLXI"
+    },
+    {
+      "fullname": "Mark Baraka ",
+      "email": "barakamark908@gmail.com",
+      "password": "1234567778",
+      "id": "r3lA_7iIfCg"
+    },
+    {
+      "fullname": "Seth Rollings",
+      "email": "sethrollings@gmail.com",
+      "password": "12345678",
+      "id": "HfcYiMZMhB8"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
